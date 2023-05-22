@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(4, 4, 61);
+    color: white;
+    border-radius: 0px 0px 70px 70px;
+}
+header h1{
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid purple;
+    padding-bottom: 3px;
+}
+.mod{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -7px;
+}
+
+.sec1,.sec2{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+  padding-top: 50px;
+  padding-bottom: 15px;
+ box-shadow: -15px 15px 30px gray;
+ margin-bottom: 40px;
+ border-radius: 10px;
+}
+
+.hs,.emo{
+    width: 40%;
+    background-color: rgb(4, 4, 61);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px  0;
+    }
+
+
+    .leftsec{
+            width: 35%;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .leftsec a{
+            display: inline-block;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 15px;
+        }
+        .you{
+            background-color: rgb(197, 35, 35);
+        }
+        .fac{
+            background-color: rgb(63, 63, 160);
+        }
+        .rightsec{
+            text-align: center;
+            width: 45%;
+        }
+        .rightsec h2{
+            font-family: 'Allura', cursive;
+        }
+        .rightsec img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-bottom:5px solid red;
+            border-top:5px solid black;
+            border-right:5px solid green;
+            border-left: 5px solid black;
+        }
+        .ral{
+            padding-top: 70px;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .sui{
+            border-top: 5px solid rgb(4, 4, 61);
+            padding:10px;
+            border-radius: 10px;
+        }
+        footer{
+            text-align: center;
+        }
+        .des{
+            background-color: rgb(4, 4, 61);
+    color: white;
+    border-radius: 70px 70px 0px 0px;
+    font-family: sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    
+        }
+      
